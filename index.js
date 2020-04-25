@@ -14,7 +14,7 @@ function johnLennonFacts(facts){
   do {
     facts[i] = facts[i] + "!!!";
     i++;
-  }
+  } while (i < facts.length)
   return facts
 }
 
