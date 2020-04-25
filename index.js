@@ -7,7 +7,7 @@ function theBeatlesPlay(musicians, instruments) {
   }
   return playtime
 }
-i = 0;
+var i = 0;
 
 
 var output = []
