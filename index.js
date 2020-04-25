@@ -2,8 +2,6 @@
 
 import { abs } from 'math.js'
 
-
-
 function theBeatlesPlay(musicians, instruments) {
   const playtime = []
   for (i = 0; i < musicians.length; i++){
@@ -22,8 +20,9 @@ function johnLennonFacts(facts){
   return facts
 }
 
-var i = 0
+
 function iLoveTheBeatles(num){
+  var i = 0;
   var love = [];
   do {
   love.push("I love the Beatles!")
