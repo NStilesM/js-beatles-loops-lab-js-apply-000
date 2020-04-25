@@ -21,6 +21,7 @@ function johnLennonFacts(facts){
 var i = 0
 function iLoveTheBeatles(num){
   var love = [];
+  var ammount = Math.abs((num - 15));
   do {
   love.push("I love the Beatles!")
   i++;
