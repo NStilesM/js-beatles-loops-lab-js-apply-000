@@ -4,7 +4,7 @@ import { abs } from 'math.js'
 
 function theBeatlesPlay(musicians, instruments) {
   const playtime = []
-  for (i = 0; i < musicians.length; i++){
+  for (let i = 0; i < musicians.length; i++){
     playtime.push(musicians[i] + " plays " + instruments[i])
   }
   return playtime
