@@ -23,11 +23,10 @@ function johnLennonFacts(facts){
 var i = 0
 function iLoveTheBeatles(num){
   var love = [];
-  limit = Math.abs(num - 15)
   do {
   love.push("I love the Beatles!")
   i++;
-  }while (i < limit)
+  }while (i < Math.abs(num - 15))
   return love
 }
 
