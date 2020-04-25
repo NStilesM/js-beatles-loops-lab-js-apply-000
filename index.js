@@ -8,8 +8,8 @@ function theBeatlesPlay(musicians, instruments) {
   return playtime
 }
 
-
-let i = 0;
+var i = 0;
+let
 function johnLennonFacts(facts){
   do {
     facts[i] = facts[i] + "!!!";
