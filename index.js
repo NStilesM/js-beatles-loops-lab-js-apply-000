@@ -1,5 +1,5 @@
 // add solution here
-const playtime = [];
+const playtime = []
 
 function theBeatlesPlay(musicians, instruments) {
   for (i = 0; i < musicians.length; i++){
@@ -11,11 +11,9 @@ function theBeatlesPlay(musicians, instruments) {
 
 var i = 0;
 function johnLennonFacts(facts){
-  // while (i < facts.length){
-  //   facts.push(facts[i] + "!!!");
-  //   i++;
-  for (i = 0; i < facts.length; i++){
-    facts[i] = facts[i] + "!!!"
+  while (i < facts.length){
+    facts[i] = facts[i] + "!!!";
+    i++;
   }
   return facts
 }
