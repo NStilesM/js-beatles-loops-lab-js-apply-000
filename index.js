@@ -1,6 +1,6 @@
 // add solution here
 
-import { abs } from math.js 
+import { abs } from 'math.js'
 
 const playtime = []
 
