@@ -13,10 +13,10 @@ var i = 0;
 function johnLennonFacts(facts){
   var new = []
   while (i < facts.length){
-    new[i] = facts[i] + "!!!";
+    new.push(facts[i] + "!!!");
     i++;
   }
-  return facts
+  return fact
 }
 
 var i = 0
